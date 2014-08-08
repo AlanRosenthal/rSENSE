@@ -1,7 +1,7 @@
 console.log("tesT");
 
 var xmlhttp=new XMLHttpRequest();
-var json;
+var json = null;
 xmlhttp.open("GET","https://api.github.com/repos/iSENSEDev/rSENSE/issues?labels=In+Testing",true);
 xmlhttp.send();
 xmlhttp.onreadystatechange=function()
