@@ -9,11 +9,11 @@ xmlhttp.onreadystatechange=function()
     {
 //        console.log(xmlhttp.responseText);
         console.log("json");
-        console.log(xmlhttp.responseText);
+        //JSON.parse(xmlhttp.responseText)
         runthis(xmlhttp.resonseText);
     }
-}
+};
 
 function runthis(test) {
     console.log(test);
-}
+};
