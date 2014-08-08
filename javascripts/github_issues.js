@@ -11,6 +11,7 @@ xmlhttp.onreadystatechange=function()
 //        console.log(xmlhttp.responseText);
         console.log("test1");
         json = xmlhttp.resonseText;
+        console.log(json);
         runthis();
     }
 }
