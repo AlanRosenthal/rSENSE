@@ -9,6 +9,7 @@ xmlhttp.onreadystatechange=function()
     {
 //        console.log(xmlhttp.responseText);
         console.log("json");
+        console.log(xmlhttp.responseText);
         runthis(xmlhttp.resonseText);
     }
 }
