@@ -12,10 +12,10 @@ xmlhttp.onreadystatechange=function()
         console.log(json);
         json = xmlhttp.resonseText;
         console.log(json);
-        runthis();
+        runthis(xmlhttp.resonseText);
     }
 }
 
-function runthis() {
-    console.log(json);
+function runthis(test) {
+    console.log(test);
 }
