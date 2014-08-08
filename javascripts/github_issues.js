@@ -1,5 +1,9 @@
 console.log("tesT");
 
+function runthis(test) {
+  console.log(test);
+};
+
 var xmlhttp=new XMLHttpRequest();
 xmlhttp.open("GET","https://api.github.com/repos/iSENSEDev/rSENSE/issues?labels=In+Testing",true);
 xmlhttp.send();
@@ -9,8 +13,4 @@ xmlhttp.onreadystatechange=function() {
     //JSON.parse(xmlhttp.responseText)
     runthis(xmlhttp.resonseText);
   }
-};
-
-function runthis(test) {
-  console.log(test);
 };
